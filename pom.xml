@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.daqinzhonggong</groupId>
+    <artifactId>end-sb2.x-examples</artifactId>
+    <version>2018.03.01</version>
+    <packaging>pom</packaging>
+
+    <name>end-sb2.x-examples 管理各模块BOM ${project.version}</name>
+
+    <modules>
+        <module>dockercompose-springboot-mysql-nginx/app</module>
+        <module>end-sb2.x-examples-actuator</module>
+        <module>end-sb2.x-examples-admin-simple</module>
+        <module>end-sb2.x-examples-banner</module>
+        <module>end-sb2.x-examples-commandLineRunner</module>
+        <module>end-sb2.x-examples-docker</module>
+        <module>end-sb2.x-examples-elasticsearch</module>
+        <module>end-sb2.x-examples-fastDFS</module>
+        <module>end-sb2.x-examples-file-upload</module>
+        <module>end-sb2.x-examples-helloWorld</module>
+        <module>end-sb2.x-examples-jpa/end-sb2.x-examples-jpa</module>
+        <module>end-sb2.x-examples-jpa/end-sb2.x-examples-multi-Jpa</module>
+        <module>end-sb2.x-examples-jpa-thymeleaf-crud</module>
+        <module>end-sb2.x-examples-mail</module>
+        <module>end-sb2.x-examples-memcache-spymemcached</module>
+        <module>end-sb2.x-examples-mongodb/end-sb2.x-examples-mongodb</module>
+        <module>end-sb2.x-examples-mongodb/end-sb2.x-examples-multi-mongodb</module>
+        <module>end-sb2.x-examples-mybatis/end-sb2.x-examples-mybatis-annotation</module>
+        <module>end-sb2.x-examples-mybatis/end-sb2.x-examples-mybatis-annotation-mulidatasource</module>
+        <module>end-sb2.x-examples-mybatis/end-sb2.x-examples-mybatis-xml</module>
+        <module>end-sb2.x-examples-mybatis/end-sb2.x-examples-mybatis-xml-mulidatasource</module>
+        <module>end-sb2.x-examples-mybatis-plus</module>
+        <module>end-sb2.x-examples-package</module>
+        <module>end-sb2.x-examples-package-war</module>
+        <module>end-sb2.x-examples-rabbitmq</module>
+        <module>end-sb2.x-examples-redis</module>
+        <module>end-sb2.x-examples-scheduler</module>
+        <module>end-sb2.x-examples-shiro</module>
+        <module>end-sb2.x-examples-swagger</module>
+        <module>end-sb2.x-examples-thymeleaf/end-sb2.x-examples-thymeleaf</module>
+        <module>end-sb2.x-examples-thymeleaf/end-sb2.x-examples-thymeleaf-layout</module>
+        <module>end-sb2.x-examples-web</module>
+        <module>end-sb2.x-examples-web-thymeleaf</module>
+        <module>end-sb2.x-examples-webflux</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
